@@ -1,0 +1,27 @@
+﻿  MFCApplication9View.cpp
+C:\Users\USER\source\repos\MFCApplication9 - 백업2\MFCApplication9\MFCApplication9View.cpp(111,54): warning C4244: '=': '_Tp'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+C:\Users\USER\source\repos\MFCApplication9 - 백업2\MFCApplication9\MFCApplication9View.cpp(112,38): warning C4244: '=': '_Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\USER\source\repos\MFCApplication9 - 백업2\MFCApplication9\MFCApplication9View.cpp(127,50): warning C4244: '=': '_Tp'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+MFCApplication9View.obj : error LNK2001: 확인할 수 없는 외부 기호 "double __cdecl cv::kmeans(class cv::_InputArray const &,int,class cv::_InputOutputArray const &,class cv::TermCriteria,int,int,class cv::_OutputArray const &)" (?kmeans@cv@@YANAEBV_InputArray@1@HAEBV_InputOutputArray@1@VTermCriteria@1@HHAEBV_OutputArray@1@@Z)
+MFCApplication9View.obj : error LNK2001: 확인할 수 없는 외부 기호 "void __cdecl cv::imshow(class cv::String const &,class cv::_InputArray const &)" (?imshow@cv@@YAXAEBVString@1@AEBV_InputArray@1@@Z)
+C:\Users\USER\source\repos\MFCApplication9 - 백업2\x64\Release\MFCApplication9realtest.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.
